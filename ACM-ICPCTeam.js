@@ -1,10 +1,10 @@
 /*
-=================== PROBLEM DESCRIPTION =========================================================
+=================== PROBLEM DESCRIPTION ===================
 
 Problem Name: ACM ICPC Team
 Problem Link: https://www.hackerrank.com/challenges/acm-icpc-team/problem?isFullScreen=true
-HackerHanck Difficulty: Easy
-My Difficulty: Medium 1
+HackerHank Difficulty: Easy
+My Difficulty: B(Easy-Medium)
 
 */ 
 
@@ -33,6 +33,9 @@ function countMergedTopics(t1,t2) {
 
   return count;
 }
+
+
+
 
 // ==================== TESTS ======================
 

@@ -1,8 +1,23 @@
+/*
+=================== PROBLEM DESCRIPTION ===================
+
+Problem Name: Queen's Attack II
+Problem Link: https://www.hackerrank.com/challenges/queens-attack-2/problem?isFullScreen=true
+HackerRanck Difficulty: Medium
+My Difficulty: S (Medium-Hard)
+
+*/ 
+
+
+
+
 function queensAttack(n, k, qR, qC, obstacles) {
   if(n === 1) return 0;
+
   const queenPos = [qR,qC];
   const obs = new Set(obstacles.map(([a,b])=> `${a},${b}`));
   const directions = [[0,1],[0,-1],[1,0],[-1,0],[1,1],[-1,-1],[-1,1],[1,-1]];
+
   return directions.reduce((acc, dir)=> acc + countMoves(n,queenPos,dir,obs), 0);  
 }
 
