@@ -1,3 +1,13 @@
+// =================== PROBLEM DESCRIPTION ===================
+/*
+Problem Name: Strong Password
+Problem Link: https://www.hackerrank.com/challenges/strong-password/problem?isFullScreen=true
+HackerRank Difficulty: Easy
+My Difficulty: C (Easy)
+*/
+// ===========================================================
+
+
 
 function minimumNumber(n, password) {
     let missing = 0
@@ -24,5 +34,8 @@ function minimumNumber(n, password) {
     return missing
 }
 
+
+// =================== TESTS ===================
+
 const r = minimumNumber(6, 'Ld@1ab')
-console.log();
+console.log(r);
