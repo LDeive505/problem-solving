@@ -3,13 +3,10 @@
 
 Problem Name: Queen's Attack II
 Problem Link: https://www.hackerrank.com/challenges/queens-attack-2/problem?isFullScreen=true
-HackerRanck Difficulty: Medium
+HackerRank Difficulty: Medium
 My Difficulty: S (Medium-Hard)
 
 */ 
-
-
-
 
 function queensAttack(n, k, qR, qC, obstacles) {
   if(n === 1) return 0;

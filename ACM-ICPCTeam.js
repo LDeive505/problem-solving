@@ -3,7 +3,7 @@
 
 Problem Name: ACM ICPC Team
 Problem Link: https://www.hackerrank.com/challenges/acm-icpc-team/problem?isFullScreen=true
-HackerHank Difficulty: Easy
+HackerRank Difficulty: Easy
 My Difficulty: B(Easy-Medium)
 
 */ 
