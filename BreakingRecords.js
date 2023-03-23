@@ -8,7 +8,6 @@ My Difficulty: C(Easy)
 // ===========================================================
 
 
-
 function breakingRecords(scores) {
   let min = scores[0], max = scores[0];
   let minRecordCount = 0, maxRecordCount = 0;

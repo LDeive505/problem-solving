@@ -1,3 +1,15 @@
+// =================== PROBLEM DESCRIPTION ===================
+/*
+Problem Name: Most Free Time
+Can be Find in: https://coderbyte.com/
+Coderbyte Difficulty: Medium
+My Difficulty: A(Medium)
+Ps: it's a challenge from a selection process of a company, but to have access
+to the problem outside the process it is necessary to pay the Coderbyte Subscription.
+*/
+// ===========================================================
+
+
 const arrayChallenge = (strArray) => {
   const schedule = strArray.map((str) => str.split('-'));
   let morning = []

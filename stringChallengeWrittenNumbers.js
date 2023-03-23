@@ -1,11 +1,15 @@
+// =================== PROBLEM DESCRIPTION ===================
 /*
-have the function StringExpression(str) read the str parameter being passed which will
-contain the written out version of the numbers 0-9 and the words "minus" or "plus" and
-convert the expression into an actual final number written out as well.
-For example: if str is "foursixminustwotwoplusonezero" then this converts
-to "46 - 22 + 10" which evaluates to 34 and your program should return the final string
-threefour. If your final answer is negative it should include the word "negative."
+Problem Name: String Expression
+Can be Find in: https://coderbyte.com/
+Coderbyte Difficulty: Medium
+My Difficulty: A(Medium)
+Ps: it's a challenge from a selection process of a company, but to have access
+to the problem outside the process it is necessary to pay the Coderbyte Subscription.
 */
+// ===========================================================
+
+
 const numbers = { zero: '0', one: '1', two: '2', three: '3', four: '4', five: '5', six: '6', seven: '7', eight: '8', nine: '9' };
 const operators = { minus: '-', plus: '+' };
 
